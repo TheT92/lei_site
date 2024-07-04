@@ -1,0 +1,92 @@
+.home {
+    background-color: #000;
+    .banner {
+        img {
+            margin-left: -30%;
+            width: 159%;
+            height: auto;
+        }
+    }
+    .content-card {
+        position: relative;
+        padding-top: 10%;
+        border-radius: 12px;
+        background: #ffffff1a;
+        .content-card-body {
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+            color: #fff;
+        }
+    }
+    .card-v {
+        .content-card-body {
+            text-align: center;
+            flex-direction: column;
+            .logo {
+                margin-right: 0 !important;
+            }
+        }
+    }
+
+    .card-jss {
+        .content-card-body {
+            padding-left: 5%;
+            justify-content: flex-start;
+        }
+    }
+
+    .card-car {
+        background: linear-gradient(260.38deg, #1867FF -9.03%, #21A4EE 106.42%);
+    }
+    .card-office {
+        background-color: #ffffff !important;
+        background: url('@/assets/mi_office_bg.png') 50% no-repeat;
+        background-size: cover;
+        .content-card-body {
+            color: #000 !important;
+        }
+    }
+    .card-meow {
+        background: rgba(198, 255, 231, 1);
+    }
+    .card-plate {
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        height: 100%;
+    }
+
+    .card-mr {
+        margin-right: 2%;
+    }
+    .card-mb {
+        margin-bottom: 2%;
+    }
+
+    .card-w-sm {
+        width: 23%;
+    }
+    .card-w-mid {
+        width: 36.5%;
+    }
+
+    .card-w-lg {
+        width: 61.5%;
+    }
+    .card-h-sm {
+        padding-top: 12.5%;
+    }
+    .card-h-mid {
+        padding-top: 23%;
+    }
+    .card-h-lg {
+        padding-top: 37.5%;
+    }
+}
